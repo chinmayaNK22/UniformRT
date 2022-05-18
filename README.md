@@ -3,7 +3,7 @@ LC-MS/MS derived peptide retention time deviation calculator across replicates f
 
 
 ```
-usage: DIA_DDA_Precursors_RT_deviation_check.py [-h]
+usage: RetentionTime_Consistency_Calculator.py [-h]
                                                 -ex [-ex ...] -ip [-ip ...]
                                                 -rt [-rt ...]
 
