@@ -3,7 +3,7 @@ LC-MS/MS derived peptide retention time deviation calculator across replicates f
 
 ## How to use RetentionTime_Consistency_Calculator in Windows/Linux
 ```
-usage: RetentionTime_Consistency_Calculator.py [-h]
+usage: UniformRT.py [-h]
                                                 -ex [-ex ...] -ip [-ip ...]
                                                 -rt [-rt ...]
 
