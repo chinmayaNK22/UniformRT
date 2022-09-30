@@ -3,9 +3,7 @@ LC-MS/MS derived peptide retention time deviation calculator across replicates f
 
 ## How to use RetentionTime_Consistency_Calculator in Windows/Linux
 ```
-usage: UniformRT.py [-h]
-                                                -ex [-ex ...] -ip [-ip ...]
-                                                -rt [-rt ...]
+usage: UniformRT.py [-h] -ex [-ex ...] -ip [-ip ...] -rt [-rt ...]
 
 Variation from run-to-run retention time (RT) deviation in LC-MS derived DDA
 or DIA results
