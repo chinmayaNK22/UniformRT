@@ -90,10 +90,10 @@ def rt_variation_check(experiment, infile, min_rts):
                 precursors[i.split('@')[0] + '_' + i.split('@')[1] + '_' + i.split('@')[2]].append(i.split('@')[-1])
 
         for l, m in precursors.items():
-            if '_'.join(k.split('_')[0:3]) not in final:
-                final['_'.join(k.split('_')[0:3])] = [l + '_' + m[0]]
+            if '_'.join(k.split('_')[0:2]) not in final:
+                final['_'.join(k.split('_')[0:2])] = [l + '_' + m[0]]
             else:
-                final['_'.join(k.split('_')[0:3])].append(l + '_' + m[0])
+                final['_'.join(k.split('_')[0:2])].append(l + '_' + m[0])
 
     cv_count = 0
     cnt = 0
